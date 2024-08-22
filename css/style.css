@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section.banner {
+	min-height: 600px;
+	background-image: url('../images/bg.jpg');
+	width: 100%;
+	background-size: cover;
+}
+
+.box {
+	position: relative;
+	top: 30px;
+}
+
+.topo {
+	background-color: #e0b1cb;
+	border-width: 0;
+}
+
+.topo a{
+	color: purple !important;
+	font-size: 24px;
+	font-weight: bold;
+	text-shadow:
+    1px 1px 4px black,
+    0 0 1em blue,
+    0 0 0.2em blue;
+  color: white;
+  font:
+    1.8em Georgia,
+    "Bitstream Charter",
+    "URW Bookman L",
+    "Century Schoolbook L",
+    serif;
+	
+}
