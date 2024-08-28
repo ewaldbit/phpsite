@@ -4,18 +4,6 @@
 	box-sizing: border-box;
 }
 
-section.banner {
-	min-height: 600px;
-	background-image: url('../images/bg.jpg');
-	width: 100%;
-	background-size: cover;
-}
-
-.box {
-	position: relative;
-	top: 30px;
-}
-
 .topo {
 	background-color: #e0b1cb;
 	border-width: 0;
@@ -38,3 +26,41 @@ section.banner {
     serif;
 	
 }
+
+section.banner {
+	padding: 150px 0;
+	position: relative;
+	min-height: 700px;
+	background-image: url('../images/bg.jpg');
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.3);
+
+}
+
+.chamada-banner h2{
+	color: #e0b1cb;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.chamada-banner p{
+	color: white;
+	font-size: 21px;
+	font-weight: 100;
+}
+
+.box {
+	position: relative;
+	top: 30px;
+}
+

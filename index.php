@@ -7,12 +7,12 @@
     <title>Projeto Dev Web</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
 
     
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top topo">
+    <nav class="navbar navbar-fixed-top topo">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -35,11 +35,17 @@
 
     <div class="box">
       <section class="banner">
-        <div class="container">
-          teste
-        </div><!--banner-->
-        
-      </section>
+        <div class="overlay"></div>
+        <div class="container chamada-banner">
+          <div class="row">
+              <div class="col-md-12 text-center" >
+                <h2>Call The Prophet</h2>
+                <p>Encontrando direção, encorajamento, consolo e edificação para atingir o seu propósito!</p>  
+                <button type="button" class="btn btn-success">Cadastro</button>
+              </div><!--col-md-12-->
+          </div><!--row-->    
+        </div><!--container-->
+      </section><!--banner-->
     </div><!--box-->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
