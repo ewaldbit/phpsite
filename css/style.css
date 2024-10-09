@@ -134,25 +134,32 @@ section.services .col-md-4 {
 	background: linear-gradient(25deg, rgba(2,0,36,1) -30%, rgba(160,136,245,1) 38%, rgba(0,212,255,1) 100%);
 	border: 15px solid rgba(6,0,46,255);
 	border-radius: 50px;
-	font-size: 25px;
+	font-size: 30px;
+	color: #fff;
 }
 
 section.services .col-md-4 h2{
-	font-size: 30px;
+	font-size: 45px;
 	color: #1c1e4c;
 }
 
 section.equipe {
 	background: #eaf7f6;
 	color: #1c1e4c;
+	font-size: 18px;
+	font-weight: 400;
 }
 
 
 section.equipe h2{
-	margin: 0;
-	font-weight: bold;
+	font-size: 8px;
+	margin: 0 auto;
 	text-align: center;
-	padding: 10px 0;
+	padding: 8px 0;
+}
+
+section.equipe h3,h4 {
+	font-weight: bold;
 }
 
 .equipe-container {
@@ -200,6 +207,8 @@ section.formulario button {
 footer {
 	background: #9d8cff;
 	padding: 10px 0;
+	color: #1c1e4c;
+	font-size: 18px;
 }
 
 

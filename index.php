@@ -103,40 +103,40 @@
                 <div class="row">
                   <div class="col-md-4">
                     <div class="user-picture"></div><!--user-picture-->
-                  </div><!--col-md-3-->
+                  </div><!--col-md-4-->
                   <div class="col-md-8">
                     <h3>Ewald Bitencourt</h3>
                     <h4>CEO</h4>
                     <p>Analista de Sistemas, desenvolvedor, idealizador e fundador da ferramenta profética.</p>
-                  </div><!--col-md-9-->  
+                  </div><!--col-md-8-->  
                 </div><!--row-->
               </div><!--equipe-single-->
-            </div><!--col-md-6-->
+            </div><!--col-md-4-->
             <div class="col-md-4">
               <div class="equipe-single">
                 <div class="row">
                   <div class="col-md-4">
                     <div class="user-picture"></div><!--user-picture-->
-                  </div><!--col-md-3-->
+                  </div><!--col-md-4-->
                   <div class="col-md-8">
                     <h3>Samuel Testolin</h3>
                     <h4>Administrador</h4>
                     <p>Administrador da empresa, atua no ministério profetico, co-fundador da ferramenta profética.</p>
-                  </div><!--col-md-9-->  
+                  </div><!--col-md-8-->  
                 </div><!--row-->
               </div><!--equipe-single-->
-            </div><!--col-md-6-->
+            </div><!--col-md-4-->
             <div class="col-md-4">
               <div class="equipe-single">
                 <div class="row">
                   <div class="col-md-4">
                     <div class="user-picture"></div><!--user-picture-->
-                  </div><!--col-md-3-->
+                  </div><!--col-md-4-->
                   <div class="col-md-8">
                     <h3>Marcela Bitencourt</h3>
                     <h4>Profeta Líder</h4>
                     <p>Profeta de ministério e lider do ministério profético para uso da ferramente.</p>
-                  </div><!--col-md-9-->  
+                  </div><!--col-md-8-->  
                 </div><!--row-->
               </div><!--equipe-single-->
             </div><!--col-md-6-->
@@ -169,7 +169,12 @@
       </section><!--formulario-->
 
 
-      <footer class="text-center">Todos os direitos reservados, 2024</footer>
+      <footer class="text-center">
+        <p>Terabyte Softwares - Palmas, TO<br>
+           ©Todos os direitos reservados, 2024<br>
+        </p>
+          
+      </footer>
 
     </div><!--box-->
 
