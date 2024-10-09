@@ -53,7 +53,7 @@
               <h2><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Entre na nossa lista!</h2>
             </div><!--col-md-6-->
             <div class="col-md-6">
-              <input type="text" name="nome"><input type="submit" >
+              <input type="text" name="nome" placeholder="Digite seu e-mail"><input type="submit" >
             </div><!--col-md-6-->
           </div><!--row-->
         </div><!--container-->
@@ -73,7 +73,7 @@
       </section><!--depoimento-->
 
       <section class="services text-center">
-        <h2>Como funciona o sistema?</h2>
+        <h2>Funcionalidades</h2>
         <div class="container services-container">
           <div class="row">
             <div class="col-md-4 clearfix d-none d-md-block">
@@ -94,6 +94,82 @@
           </div><!--row-->
         </div><!--container-->
       </section><!--funcionamento-->
+      <section class="equipe">
+        <h2>Equipe</h2>
+        <div class="container equipe-container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="equipe-single">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="user-picture"></div><!--user-picture-->
+                  </div><!--col-md-3-->
+                  <div class="col-md-8">
+                    <h3>Ewald Bitencourt</h3>
+                    <h4>CEO</h4>
+                    <p>Analista de Sistemas, desenvolvedor, idealizador e fundador da ferramenta profética.</p>
+                  </div><!--col-md-9-->  
+                </div><!--row-->
+              </div><!--equipe-single-->
+            </div><!--col-md-6-->
+            <div class="col-md-4">
+              <div class="equipe-single">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="user-picture"></div><!--user-picture-->
+                  </div><!--col-md-3-->
+                  <div class="col-md-8">
+                    <h3>Samuel Testolin</h3>
+                    <h4>Administrador</h4>
+                    <p>Administrador da empresa, atua no ministério profetico, co-fundador da ferramenta profética.</p>
+                  </div><!--col-md-9-->  
+                </div><!--row-->
+              </div><!--equipe-single-->
+            </div><!--col-md-6-->
+            <div class="col-md-4">
+              <div class="equipe-single">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="user-picture"></div><!--user-picture-->
+                  </div><!--col-md-3-->
+                  <div class="col-md-8">
+                    <h3>Marcela Bitencourt</h3>
+                    <h4>Profeta Líder</h4>
+                    <p>Profeta de ministério e lider do ministério profético para uso da ferramente.</p>
+                  </div><!--col-md-9-->  
+                </div><!--row-->
+              </div><!--equipe-single-->
+            </div><!--col-md-6-->
+          </div><!--row-->
+        </div><!--container-->
+      </section><!--equipe-->
+      
+      <section class="formulario">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <form>
+                <div class="form-group">
+                  <label for="Name">Nome Completo</label>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Digite seu nome completo">  
+                </div><!--form-group-->
+                <div class="form-group">  
+                  <label for="email">Endereço de email</label>
+                  <input type="email" name="email" class="form-control" id="email" placeholder="nome@exemplo.com">
+                </div><!--form-group-->
+                <div class="form-group">  
+                  <label for="message">Mensagem</label>
+                  <textarea class="form-control textarea1" name="message" id="message" rows="5" resize="none"></textarea>
+                </div><!--form-group-->  
+                <button type="button" class="btn btn-primary btn-lg btn-block">Enviar</button>
+              </form>    
+            </div><!--col-md-6-->
+          </div><!--row-->
+        </div><!--container-->
+      </section><!--formulario-->
+
+
+      <footer class="text-center">Todos os direitos reservados, 2024</footer>
 
     </div><!--box-->
 

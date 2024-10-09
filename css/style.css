@@ -70,16 +70,25 @@ section.cadastro-lead {
 section.cadastro-lead h2{
 	color: white;
 	font-size: 34px;
-/*	left: 210px;*/
+	left: 210px;
 	position: relative;
 	top: -4px;
 	
 }
 
 section.cadastro-lead input[type=text]{
-	width: 85%;
+	width: 45%;
 	height: 40px;
-	border: 1px solid #ccc;
+	border: 2px solid #FFF;
+	position: relative;
+	top: 15px;
+}
+
+section.cadastro-lead input[type=submit]{
+	background: #9d8cff;
+	width: 15%;
+	height: 40px;
+	border: 2px solid #FFF;
 	position: relative;
 	top: 15px;
 }
@@ -97,14 +106,6 @@ section.depoimento blockquote{
 	font-size: 16px;
 }
 
-section.cadastro-lead input[type=submit]{
-	width: 15%;
-	height: 40px;
-	border: 1px solid #ccc;
-	position: relative;
-	top: 15px;
-}
-
 section.services {
 	padding: 20px 0;
 	background: rgba(6,0,46,255);
@@ -116,7 +117,7 @@ section.services {
 }
 
 .services-container h3 {
-	color: #9d8cff;
+	color: #fff;
 }
 
 .services-container h2{
@@ -129,17 +130,104 @@ section.services h2{
 }
 
 
-section .col-md-4 {
+section.services .col-md-4 {
 	background: linear-gradient(25deg, rgba(2,0,36,1) -30%, rgba(160,136,245,1) 38%, rgba(0,212,255,1) 100%);
 	border: 15px solid rgba(6,0,46,255);
 	border-radius: 50px;
 	font-size: 25px;
 }
 
-section .col-md-4 h2{
+section.services .col-md-4 h2{
 	font-size: 30px;
 	color: #1c1e4c;
 }
 
+section.equipe {
+	background: #eaf7f6;
+	color: #1c1e4c;
+}
 
 
+section.equipe h2{
+	margin: 0;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.equipe-container {
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+section.equipe .equipe-single {
+	width: 100%;
+	padding: 10px 10px;
+	margin-top: 10px;
+	border: 3px solid rgba(6,0,46,255);
+	-webkit-box-shadow: 10px 14px 5px -4px rgba(6,0,46,0.80);
+	text-align: center;
+}
+
+.user-picture {
+	width: 100%;
+	padding-top: 100%;
+	background: #ccc;
+	border-radius: 50%;
+}
+
+section.formulario{
+	padding: 30px 0;
+	background: rgba(6,0,46,255);
+	color: #FFF;
+	font-size: 25px;
+	font-weight: 100;
+}
+
+section.formulario textarea {
+	resize: none;
+	height: 120px;
+}
+
+section.formulario button {
+	margin: 0 auto;
+}
+
+
+
+
+footer {
+	background: #9d8cff;
+	padding: 10px 0;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+	section.banner {
+		background-size: auto;
+	}
+
+	.user-picture {
+		width: 50%;
+		padding-top: 50%;
+		margin: 0 auto;
+	}
+
+	section.cadastro-lead h2 {
+		margin: 0 auto;
+		left: 90px;
+	}
+
+	section.cadastro-lead input {
+		left: 95px;
+		text-align: center;
+	}
+
+
+
+
+	
+}
